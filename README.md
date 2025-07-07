@@ -1,10 +1,16 @@
 # cat
 echo 'curl parrot.live' >> ~/.zshrc
+###
 echo 'while true; do echo -ne "\r Loading..."; sleep 0.1; done' >> ~/.zshrc
+###
 echo 'tetris() { curl -sL https://raw.githubusercontent.com/dionyziz/terminal-tetris/master/tetris.py | python3; }; tetris' >> ~/.zshrc
+###
 echo "alias ls='sl'" >> ~/.zshrc
+###
 echo "alias cd='echo You are not allowed to cd anymore!'" >> ~/.zshrc
+###
 echo 'mpv --no-video https://www.youtube.com/watch?v=dQw4w9WgXcQ' >> ~/.zshrc
+###
 
 
 
@@ -13,12 +19,12 @@ stty intr '' erase '' kill ''
 #reverse colors
 echo -e '\e[?5h'
 
-random stuff
+###random stuff
 while true; do echo "System overload..."; sleep 5; done &
-
+###
 alias ls='echo "Stop using ls. Use your brain."'
 alias cd='echo "Nope. Walk there yourself."'
-
+###
 echo "alias ls='cowsay Use your eyes!'" >> ~/.bash_profile
 
 
