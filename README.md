@@ -36,7 +36,7 @@ alias cd='sleep 2; cd'
 #vim forever
 alias vim='vim ~/.bashrc'
 
-#reboot terminal ###
+#reboot terminal
 (sleep $((RANDOM % 60 + 30)); echo "System Error! Reboot now!") &
 #will remove itself###
 echo 'echo "Ribbit!" && sed -i "/Ribbit/d" ~/.zshrc' >> ~/.zshrc
